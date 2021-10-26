@@ -1,29 +1,39 @@
 {
 	"head": { 
-		"title": "〖V社〗一级市场的灰度基金",
-		"description": "Author:SimonMa,Category:Personal Blog",
+		"title": "〖V社〗灰度基金",
+		"description": "〖V社〗一级市场灰度基金",
 		"favicon": "favicon.ico"
 	},
 	"intro": {
-		"title": "〖V社〗基金",
-		"subtitle": "一级市场的灰度基金..",
+		"title": "〖 V 社 〗",
+		"subtitle": " 君子爱财 ， 取之有道 ",
 		"enter": "enter",
-		"supportAuthor": true,
+		"supportAuthor": false,
 		"background": true
 	},
 	"main": {
-		"name": "vt",
-		"signature": "Code & Input & Output",
+		"name": "V 社区",
+		"signature": "welcome to V社-一级市场灰度基金社区",
 		"avatar": {
 			"link": "assets/avatar.jpg",
 			"height": "100",
 			"width": "100"
 		},
 		"ul": {
+			"first": {
+				"href": "https://twitter.com/BestNewCoin",
+				"icon": "twitter",
+				"text": "推特"
+			},
 			"second": {
 				"href": "https://hx-amu.github.io/react-terminal/demo/dist/index.html",
 				"icon": "xiaolian",
 				"text": "关于"
+			},
+			"third": {
+				"href": "https://t.me/joinchat/FA55oG1cBBViYzY1",
+				"icon": "",
+				"text": "telegram"
 			}
 		}
 	}

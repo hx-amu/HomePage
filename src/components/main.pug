@@ -8,20 +8,21 @@
 
 			- const { first , second , third, fourth } = main.ul
 			ul
-				//- li
-				//- 	a(href=`${first.href}` aria-label=`${first.text}`)
-				//- 		i(class=`icon icon-${first.icon}`)
-				//- 		span(data-translate=`${first.text}`) #{first.text}
+				li
+					a(href=`${first.href}` aria-label=`${first.text}` target="_blank")
+						i(class=`icon icon-${first.icon}`)
+						span(data-translate=`${first.text}`) #{first.text}
 
 				li
-					a(href=`${second.href}` aria-label=`${second.text}`)
+					a(href=`${second.href}` aria-label=`${second.text}` target="_blank")
 						i(class=`icon icon-${second.icon}`)
 						span(data-translate=`${second.text}`) #{second.text}
 
-				//- li
-				//- 	a(href=`${third.href}` aria-label=`${third.text}` target="_blank")
-				//- 		i(class=`icon icon-${third.icon}`)
-				//- 		span(data-translate=`${third.text}`) #{third.text}
+				li
+					a(href=`${third.href}` aria-label=`${third.text}` target="_blank")
+						svg(t="1633834412801" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="753" width="23" height="23")
+							path(d="M679.424 746.861714l84.004571-395.995428c7.424-34.852571-12.580571-48.566857-35.437714-40.009143l-493.714286 190.281143c-33.718857 13.129143-33.133714 32-5.705142 40.557714l126.281142 39.424 293.156572-184.576c13.714286-9.142857 26.294857-3.986286 16.018286 5.156571l-237.129143 214.272-9.142857 130.304c13.129143 0 18.870857-5.705143 25.709714-12.580571l61.696-59.428571 128 94.281142c23.442286 13.129143 40.009143 6.290286 46.299428-21.723428zM1024 512c0 282.843429-229.156571 512-512 512S0 794.843429 0 512 229.156571 0 512 0s512 229.156571 512 512z" fill="#cdcdcd" p-id="754")
+						span(data-translate=`${third.text}`) #{third.text}
 
 				//- li
 				//- 	a(href=`${fourth.href}` aria-label=`${fourth.text}` target="_blank")

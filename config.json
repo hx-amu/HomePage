@@ -21,7 +21,7 @@
 		},
 		"ul": {
 			"second": {
-				"href": "about/",
+				"href": "https://hx-amu.github.io/react-terminal/demo/dist/index.html",
 				"icon": "xiaolian",
 				"text": "关于"
 			}

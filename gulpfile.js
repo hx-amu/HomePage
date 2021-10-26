@@ -1,3 +1,9 @@
+/*
+ * @description: 
+ * @Date: 2021-10-25 20:36:08
+ * @LastEditors: am
+ * @LastEditTime: 2021-10-26 10:57:27
+ */
 const gulp = require('gulp')
 const minifycss = require('gulp-clean-css')
 const uglify = require('gulp-uglify')
@@ -68,6 +74,6 @@ gulp.task('watch', function () {
 	connect.server({
 		root: 'dist',
 		livereload: true,
-		port: 8080
+		port: 8081
 	})
 })

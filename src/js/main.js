@@ -148,6 +148,9 @@ enterEl.addEventListener('touchenter', loadAll)
 document.body.addEventListener('mousewheel', loadAll, { passive: true })
 $('.arrow').addEventListener('mouseenter', loadAll)
 
+var second_href=window.location.href.search(/http|https/)!=-1?$('#second_href').href:'https://vgroupcode.github.io/HomePage/about.html'
+$('#second_href').href=second_href
+
 if (isPhone) {
 	document.addEventListener(
 		'touchstart',
